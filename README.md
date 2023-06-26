@@ -17,4 +17,5 @@ Make sure to follow the steps if setting up for the first time:
 
 After Project is running , give the first path after localhost:8080 as per your project root folder
 <img width="567" alt="image" src="https://github.com/visheshmohan/java-dynamic-web-servlet-tomcat/assets/63037782/e4969fbc-1039-4197-8c24-97caa305aa0e">
+
 Can verify same in Server's folder [on the same level as java root folder] in server.xml for path="/MyFirstJavaWebProject-Tomcat" for <Context> tag, must be placed just above </Engine> tag.
