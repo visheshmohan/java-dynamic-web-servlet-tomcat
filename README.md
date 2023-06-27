@@ -15,7 +15,10 @@ Make sure to follow the steps if setting up for the first time:
 2. Setup Apache Tomcat
 3. Generate a new Java web project from IDE keeping the "Default Configuration for Apache tomcat {version}" option selected.
 
-After Project is running , give the first path after localhost:8080 as per your project root folder
+After Project is running, give the first path after localhost:8080 as per your project root folder
 <img width="567" alt="image" src="https://github.com/visheshmohan/java-dynamic-web-servlet-tomcat/assets/63037782/e4969fbc-1039-4197-8c24-97caa305aa0e">
 
 Can verify same in Server's folder [on the same level as java root folder] in server.xml for path="/MyFirstJavaWebProject-Tomcat" for <Context> tag, must be placed just above </Engine> tag.
+
+Once the project is cloned. Check Project Settings and make sure it matches the below configuration.
+<img width="967" alt="image" src="https://github.com/visheshmohan/java-dynamic-web-servlet-tomcat/assets/63037782/5d2fe0b9-cc88-4130-8f67-8858deffd71f">
