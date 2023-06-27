@@ -22,3 +22,22 @@ Can verify same in Server's folder [on the same level as java root folder] in se
 
 Once the project is cloned. Check Project Settings and make sure it matches the below configuration.
 <img width="967" alt="image" src="https://github.com/visheshmohan/java-dynamic-web-servlet-tomcat/assets/63037782/5d2fe0b9-cc88-4130-8f67-8858deffd71f">
+
+Project state now:
+<img width="1059" alt="image" src="https://github.com/visheshmohan/java-dynamic-web-servlet-tomcat/assets/63037782/c677ee7b-64d7-4cfa-9d1f-f4d1e611d95a">
+
+
+Then move to Build Path and Add Apache Tomcat
+<img width="999" alt="image" src="https://github.com/visheshmohan/java-dynamic-web-servlet-tomcat/assets/63037782/dd642718-a64b-4342-ac26-5493cea9609d">
+
+Select Server Runtime > Apache Tomcat version
+<img width="420" alt="image" src="https://github.com/visheshmohan/java-dynamic-web-servlet-tomcat/assets/63037782/aea66966-ef54-4c55-8a10-836bdb04e9a2">
+
+The project should be something like this this:
+<img width="1035" alt="image" src="https://github.com/visheshmohan/java-dynamic-web-servlet-tomcat/assets/63037782/cfaa6a50-a532-4e9e-8e38-b63458378b10">
+
+Check Server.xml of your server
+<img width="1654" alt="image" src="https://github.com/visheshmohan/java-dynamic-web-servlet-tomcat/assets/63037782/07f94d4d-2812-4184-bd4b-b872757b53fb">
+
+And we are good to see "Hello World" at http://localhost:8080/java-dynamic-web-servlet-tomcat/student
+<img width="584" alt="image" src="https://github.com/visheshmohan/java-dynamic-web-servlet-tomcat/assets/63037782/e29019fe-df4f-4bfa-bd52-a120e9feac59">
